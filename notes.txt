@@ -1,0 +1,14 @@
+Layerstack:
+1) Top     [Color: red]
+2) GND1    [Color: brown]
+3) Signal1 [Color: light blue]
+4) Signal2 [Color: green]
+5) GND2    [Color: purple]
+6) Bottom  [Color: blue]
+
+
+Vias on the lines:
+Line 1: One via from Top to Bottom
+Line 2: Two blind vias: Top to Signal1, Signal1 to Bottom
+Line 3: Two blind, one buried via: Top to Signal1, Signal1 to Signal2 (buried), Signal2 to Bottom
+Line 4: One via from Bottom to Top
